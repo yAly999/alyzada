@@ -37,3 +37,6 @@ def temporizador():
         print("Entrada inválida. Por favor, digite um número inteiro para os segundos.")
     except KeyboardInterrupt:
         print("\nTemporizador interrompido pelo usuário.")
+
+if __name__ == "__main__":
+    temporizador()        
