@@ -12,7 +12,7 @@ tkLabel = tk.Label(root, text="sicredi", font=("Arial", 14, "italic"), bg="#0043
 
 tk.label = tk.Label(root,text="Valor inicial($):", font=("Arial",12), bg="#004363", fg="White").pack(anchor= "center")
 
-entrada_principal = tk.Entry(root, font=("Arial", 12), width=20,relief="groove").pack(pady5)
+entrada_principal = tk.Entry(root, font=("Arial", 12), width=20,relief="groove").pack(pady=(5,0),ipadx=5, ipady=5,fill = tk.x)
 
 
 
