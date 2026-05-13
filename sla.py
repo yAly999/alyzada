@@ -14,6 +14,6 @@ tk.label = tk.Label(root,text="Valor inicial($):", font=("Arial",12), bg="#00436
 
 entrada_principal = tk.Entry(root, font=("Arial", 12), width=20,relief="groove").pack(pady=(5,0),ipadx=5, ipady=5,fill = tk.x)
 
-##aaaaaaaaa
+
 
 root.mainloop()
